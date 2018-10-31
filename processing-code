@@ -31,8 +31,6 @@ def draw():
     while moon_x < 20 and moon_y < 20:
         moon_x += 1
         moon_y += 1
-    def setup():
-    size(640,480)
 #trees
 def draw():
     fill(60)
@@ -54,7 +52,6 @@ def draw():
 #spider
 def setup():
     global img
-    size(640, 480)
     img = loadImage("spider.png")
     
 def draw():
@@ -64,7 +61,6 @@ def draw():
  #pumpkin
  def setup():
     global pumpkin_image
-    size(640, 480)
     pumpkin_image = loadImage("pumpkin.png")
     
 def draw():
